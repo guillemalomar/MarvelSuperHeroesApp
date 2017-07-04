@@ -65,6 +65,9 @@ Required command:
 Bonus Functionality (Optional)
 
 The following to-do items are all optional. Feel free to include them if you desire.
-● Deploy the API service to a cloud-based server. If this is done, there should be an option on the command line tool to connect to either the remote server or the local one.
-● Better data storage for the notes. This can be a local or remote service. Services of interest would be Redis, Memcached, a sql database or a key-value store. Installation instructions must be included for any service used.
+● Deploy the API service to a cloud-based server. If this is done, there should be an option on the command
+line tool to connect to either the remote server or the local one.
+● Better data storage for the notes. This can be a local or remote service. Services of interest would be
+Redis, Memcached, a sql database or a key-value store. Installation instructions must be included for any
+service used.
 ● Ability to run tests on the API using a dedicated testing framework.

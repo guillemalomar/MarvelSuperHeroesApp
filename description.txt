@@ -21,16 +21,19 @@ COMPONENTS
 
 Component 1: API
 
-This is a REST-based API that will be called by the command line tool. It will wrap the Marvel API to provide custom filtering, sorting, note management and simple analysis.
+This is a REST-based API that will be called by the command line tool. It will wrap the Marvel API to
+provide custom filtering, sorting, note management and simple analysis.
 Required functionality:
 ● All requests and responses must be in json.
 ● API to return a list of the creators with the following functionality:
-	○ The fields to include: id, fullName, modified, the custom note (if any), # of comics, #of stories, # of series and # of events
+	○ The fields to include: id, fullName, modified, the custom note (if any), # of comics, #of stories,
+	# of series and # of events
 	○ Sorting and filtering on those fields
 	○ Additional filtering by name or id a comic, series, story or event
 ● API for the management of custom note for creator - this is a single note on a creator:
 	○ Notes can be stored in a local file
-	○ List current notes with filtering by id or text. Response should include id and name of the associated creator
+	○ List current notes with filtering by id or text. Response should include id and name of the
+	associated creator
 	○ Ability to create, edit and delete the note
 ● API for performing a simple comparison between two creators. Given two creator ids, return the following data:
 	○ A summary for both creators containing:
@@ -67,7 +70,6 @@ Bonus Functionality (Optional)
 The following to-do items are all optional. Feel free to include them if you desire.
 ● Deploy the API service to a cloud-based server. If this is done, there should be an option on the command
 line tool to connect to either the remote server or the local one.
-● Better data storage for the notes. This can be a local or remote service. Services of interest would be
-Redis, Memcached, a sql database or a key-value store. Installation instructions must be included for any
-service used.
+● Better data storage for the notes. This can be a local or remote service. Services of interest would be Redis,
+Memcached, a sql database or a key-value store. Installation instructions must be included for any service used.
 ● Ability to run tests on the API using a dedicated testing framework.

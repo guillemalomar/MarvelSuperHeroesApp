@@ -1,7 +1,12 @@
 PROJECT DESCRIPTION
 
-The project you are about to build is a small Marvel Super Heroes app . It will require building an web service API as well as a command line tool for accessing the API. The project is small application that allows users to fetch basic information on and add notes about the creators of the vast Marvel Super Heroes universe. You will want to sign up for a developer account in order to take advantage of their public API. You can do so at https://developer.marvel.com .
-There are two applications expected: an API server and a command line tool for accessing the API. The API should follow standard REST design with json input/output.
+The project you are about to build is a small Marvel Super Heroes app . It will require building an web service API
+as well as a command line tool for accessing the API. The project is small application that allows users to fetch
+basic information on and add notes about the creators of the vast Marvel Super Heroes universe. You will want to
+sign up for a developer account in order to take advantage of their public API. You can do so at
+https://developer.marvel.com .
+There are two applications expected: an API server and a command line tool for accessing the API. The API should
+follow standard REST design with json input/output.
 
 GENERAL REQUIREMENTS
 
@@ -38,7 +43,8 @@ Required functionality:
 		
 Component 2: Command Line Tool
 
-The goal of the command line tool is to provide an interface to the API. The exact syntax of the commands are up to you.
+The goal of the command line tool is to provide an interface to the API. The exact syntax of the commands are up
+to you.
 Required command:
 ● Help - returns a list of commands and their syntax
 	○ Parameters: none
